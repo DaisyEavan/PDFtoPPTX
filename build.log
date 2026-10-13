@@ -1,0 +1,44 @@
+31 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+185 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+185 INFO: Python: 3.9.25 (conda)
+199 INFO: Platform: Windows-10-10.0.22631-SP0
+199 INFO: Python environment: D:\Anaconda3\envs\PPTtoPPTX
+199 INFO: wrote C:\Users\21018\Desktop\PDFtoPPTX\PDFtoPPTX.spec
+199 DEBUG: Testing UPX availability ...
+199 DEBUG: UPX is not available.
+199 DEBUG: script: C:\Users\21018\Desktop\PDFtoPPTX\PDFtoPPTX.py
+199 INFO: Module search paths (PYTHONPATH):
+['D:\\Anaconda3\\envs\\PPTtoPPTX\\Scripts\\pyinstaller.exe',
+ 'D:\\Anaconda3\\envs\\PPTtoPPTX\\python39.zip',
+ 'D:\\Anaconda3\\envs\\PPTtoPPTX\\DLLs',
+ 'D:\\Anaconda3\\envs\\PPTtoPPTX\\lib',
+ 'D:\\Anaconda3\\envs\\PPTtoPPTX',
+ 'D:\\Anaconda3\\envs\\PPTtoPPTX\\lib\\site-packages',
+ 'C:\\Users\\21018\\Desktop\\PDFtoPPTX']
+154 DEBUG: discover_hook_directories: Hook directories: [('D:\\Anaconda3\\envs\\PPTtoPPTX\\lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks', -1000), ('D:\\Anaconda3\\envs\\PPTtoPPTX\\lib\\site-packages\\_pyinstaller_hooks_contrib', -1000)]
+533 INFO: Appending 'datas' from .spec
+533 INFO: checking Analysis
+585 INFO: checking PYZ
+600 INFO: checking PKG
+632 INFO: Bootloader D:\Anaconda3\envs\PPTtoPPTX\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+632 INFO: checking EXE
+632 INFO: Rebuilding EXE-00.toc because PDFtoPPTX.exe missing
+632 INFO: Building EXE from EXE-00.toc
+632 INFO: Copying bootloader EXE to C:\Users\21018\Desktop\PDFtoPPTX\dist\PDFtoPPTX.exe
+687 INFO: Copying icon to EXE
+774 DEBUG: Copying icons from ['C:\\Users\\21018\\Desktop\\PDFtoPPTX\\build\\PDFtoPPTX\\generated-bc83e5004244eace031ad6dde23e096a49a02947553f58871f2b0f81d8f7850e.ico']
+790 DEBUG: Writing RT_GROUP_ICON 1 resource with 104 bytes
+790 DEBUG: Writing RT_ICON 1 resource with 658 bytes
+790 DEBUG: Writing RT_ICON 2 resource with 1074 bytes
+790 DEBUG: Writing RT_ICON 3 resource with 1516 bytes
+790 DEBUG: Writing RT_ICON 4 resource with 2392 bytes
+790 DEBUG: Writing RT_ICON 5 resource with 3383 bytes
+790 DEBUG: Writing RT_ICON 6 resource with 7875 bytes
+790 DEBUG: Writing RT_ICON 7 resource with 20913 bytes
+790 INFO: Copying 0 resources to EXE
+790 INFO: Embedding manifest in EXE
+822 INFO: Appending PKG archive to EXE
+822 WARNING: Execution of '_append_data_to_exe' failed on attempt #1 / 20: PermissionError(13, 'Permission denied'). Retrying in 0.05 second(s)...
+947 INFO: Fixing EXE headers
+1420 INFO: Building EXE from EXE-00.toc completed successfully.
+1420 INFO: Build complete! The results are available in: C:\Users\21018\Desktop\PDFtoPPTX\dist
